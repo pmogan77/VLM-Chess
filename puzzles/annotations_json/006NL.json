@@ -1,0 +1,110 @@
+{
+  "fen": "1r6/k2qn1b1/p1b1p1p1/2PpPpN1/2nN1P1P/p4B2/1PP2Q2/1K1R3R w - - 0 32",
+  "side_to_move": "white",
+  "arrows": [
+    {
+      "from_square": "a3",
+      "to_square": "b2",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "f3",
+      "to_square": "d5",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "c4",
+      "to_square": "b2",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "c4",
+      "to_square": "e5",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d4",
+      "to_square": "b5",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "d4",
+      "to_square": "f5",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "d4",
+      "to_square": "c6",
+      "kind": "capture_check",
+      "color": "#7b1fa2"
+    },
+    {
+      "from_square": "d4",
+      "to_square": "e6",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "g5",
+      "to_square": "e6",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "g7",
+      "to_square": "e5",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "b8",
+      "to_square": "b2",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "b8",
+      "to_square": "b2",
+      "kind": "pin",
+      "color": "#8e24aa"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "b2",
+      "kind": "pinned_piece",
+      "color": "#8e24aa66"
+    },
+    {
+      "square": "c6",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "d5",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "e5",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "e6",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "f5",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    }
+  ]
+}

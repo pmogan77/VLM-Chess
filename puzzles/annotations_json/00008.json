@@ -1,0 +1,126 @@
+{
+  "fen": "r6k/pp2r2p/4Rp1Q/3p4/8/1N1P2R1/PqP2bPP/7K b - - 0 24",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "b2",
+      "to_square": "a1",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "b2",
+      "to_square": "b1",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "b2",
+      "to_square": "c1",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "b2",
+      "to_square": "a2",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "b2",
+      "to_square": "c2",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "b2",
+      "to_square": "b3",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "f2",
+      "to_square": "g3",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "e6",
+      "to_square": "f6",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "e6",
+      "to_square": "e7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "h6",
+      "to_square": "f6",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "h6",
+      "to_square": "h7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "h6",
+      "to_square": "h7",
+      "kind": "pin",
+      "color": "#8e24aa"
+    },
+    {
+      "from_square": "e7",
+      "to_square": "e6",
+      "kind": "capture",
+      "color": "#d32f2f"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "a2",
+      "kind": "hanging_piece",
+      "color": "#ffb74d88"
+    },
+    {
+      "square": "b3",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "c2",
+      "kind": "hanging_piece",
+      "color": "#ffb74d88"
+    },
+    {
+      "square": "e6",
+      "kind": "hanging_piece",
+      "color": "#ffb74d88"
+    },
+    {
+      "square": "e7",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "f6",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "g3",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "h7",
+      "kind": "pinned_piece",
+      "color": "#8e24aa66"
+    }
+  ]
+}

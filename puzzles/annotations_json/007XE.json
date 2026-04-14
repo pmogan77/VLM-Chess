@@ -1,0 +1,30 @@
+{
+  "fen": "2kr3r/p1p1bpp1/2p2n1p/8/8/1P6/P1P1RPPP/RNB3K1 w - - 1 16",
+  "side_to_move": "white",
+  "arrows": [
+    {
+      "from_square": "c1",
+      "to_square": "h6",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "e2",
+      "to_square": "e7",
+      "kind": "capture",
+      "color": "#d32f2f"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "e7",
+      "kind": "hanging_piece",
+      "color": "#ffb74d88"
+    },
+    {
+      "square": "h6",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    }
+  ]
+}

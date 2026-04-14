@@ -1,0 +1,29 @@
+{
+  "fen": "8/r1b1q2k/2p3p1/2Pp4/1P2p1n1/2B1P3/NQ6/2K4R b - - 1 36",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "h1",
+      "to_square": "h7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "e3",
+      "kind": "hanging_piece",
+      "color": "#ffb74d88"
+    },
+    {
+      "square": "h1",
+      "kind": "checking_piece",
+      "color": "#9575cd88"
+    },
+    {
+      "square": "h7",
+      "kind": "checked_king",
+      "color": "#e53935aa"
+    }
+  ]
+}

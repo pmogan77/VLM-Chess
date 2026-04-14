@@ -1,0 +1,147 @@
+{
+  "fen": "r2r2k1/2q1bpp1/3p1n1p/1ppN4/1P1BP3/P5Q1/4RPPP/R5K1 b - - 1 20",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "g3",
+      "to_square": "d6",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "g3",
+      "to_square": "g7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "g3",
+      "to_square": "g7",
+      "kind": "pin",
+      "color": "#8e24aa"
+    },
+    {
+      "from_square": "b4",
+      "to_square": "c5",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d4",
+      "to_square": "c5",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d4",
+      "to_square": "f6",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "c5",
+      "to_square": "b4",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "c5",
+      "to_square": "d4",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "d5",
+      "to_square": "f6",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d5",
+      "to_square": "c7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d5",
+      "to_square": "e7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "f6",
+      "to_square": "e4",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "f6",
+      "to_square": "d5",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "a8",
+      "to_square": "a3",
+      "kind": "capture",
+      "color": "#d32f2f"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "a3",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "b4",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "c5",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "c7",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "d4",
+      "kind": "hanging_piece",
+      "color": "#ffb74d88"
+    },
+    {
+      "square": "d5",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "d6",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "e4",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "e7",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "f6",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "g7",
+      "kind": "pinned_piece",
+      "color": "#8e24aa66"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "fen": "2rq1rk1/7p/1n4pb/1R2p3/pPpP1P2/P1B5/3NQ1PP/2R3K1 w - - 0 31",
+  "side_to_move": "white",
+  "arrows": [
+    {
+      "from_square": "d2",
+      "to_square": "c4",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "e2",
+      "to_square": "c4",
+      "kind": "capture_check",
+      "color": "#7b1fa2"
+    },
+    {
+      "from_square": "e2",
+      "to_square": "e5",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "d4",
+      "to_square": "e5",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "e5",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "b5",
+      "to_square": "e5",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "b5",
+      "to_square": "b6",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "e5",
+      "to_square": "d4",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "e5",
+      "to_square": "f4",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "h6",
+      "to_square": "f4",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d8",
+      "to_square": "d4",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "f8",
+      "to_square": "f4",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "b6",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "c4",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "d4",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "e5",
+      "kind": "hanging_piece",
+      "color": "#ffb74d88"
+    },
+    {
+      "square": "f4",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    }
+  ]
+}

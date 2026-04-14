@@ -1,0 +1,86 @@
+{
+  "fen": "r1b4r/pp1k2pp/2nb2q1/1B1p2B1/3p3Q/8/PPP2PPP/3RR1K1 b - - 5 17",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "d1",
+      "to_square": "d4",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "h4",
+      "to_square": "d4",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "h4",
+      "to_square": "h7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "b5",
+      "to_square": "c6",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "b5",
+      "to_square": "c6",
+      "kind": "pin",
+      "color": "#8e24aa"
+    },
+    {
+      "from_square": "d6",
+      "to_square": "h2",
+      "kind": "capture_check",
+      "color": "#7b1fa2"
+    },
+    {
+      "from_square": "g6",
+      "to_square": "c2",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "g6",
+      "to_square": "g5",
+      "kind": "capture",
+      "color": "#d32f2f"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "c2",
+      "kind": "hanging_piece",
+      "color": "#ffb74d88"
+    },
+    {
+      "square": "c6",
+      "kind": "pinned_piece",
+      "color": "#8e24aa66"
+    },
+    {
+      "square": "d4",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "g5",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "h2",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "h7",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "image_path": "board_a.png",
+  "side_to_move": "white",
+  "model": "nvidia/nemotron-nano-12b-v2-vl:free",
+  "candidate_moves": [
+    "e5e6",
+    "d4d5",
+    "c2c3",
+    "g1f3",
+    "b5c7"
+  ]
+}

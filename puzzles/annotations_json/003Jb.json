@@ -1,0 +1,86 @@
+{
+  "fen": "r3kb1r/p4ppp/b1p1p3/3q4/3Q4/4BN2/PPP2PPP/R3K2R b KQkq - 0 11",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "d4",
+      "to_square": "d5",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d4",
+      "to_square": "a7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d4",
+      "to_square": "g7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d5",
+      "to_square": "a2",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "d5",
+      "to_square": "f3",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "d5",
+      "to_square": "d4",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "d5",
+      "to_square": "a5",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "f8",
+      "to_square": "b4",
+      "kind": "check",
+      "color": "#1976d2"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "a2",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "a7",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "d4",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "d5",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "f3",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "g7",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    }
+  ]
+}

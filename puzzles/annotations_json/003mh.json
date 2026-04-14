@@ -1,0 +1,58 @@
+{
+  "fen": "r4k1r/1pp2p2/p2p3p/3N4/3P2q1/8/PPP5/1K2Q1NR b - - 1 23",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "h1",
+      "to_square": "h6",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "g4",
+      "to_square": "d1",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "g4",
+      "to_square": "g1",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "g4",
+      "to_square": "d4",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "d5",
+      "to_square": "c7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "c7",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "d4",
+      "kind": "hanging_piece",
+      "color": "#ffb74d88"
+    },
+    {
+      "square": "g1",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "h6",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    }
+  ]
+}

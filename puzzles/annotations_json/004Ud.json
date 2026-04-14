@@ -1,0 +1,103 @@
+{
+  "fen": "r1bqk2r/p3Bppp/3p4/1ppn4/4P3/4Q3/PPP2PPP/2KR1B1R b kq - 0 11",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "d1",
+      "to_square": "d5",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "f1",
+      "to_square": "b5",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "e3",
+      "to_square": "c5",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "e4",
+      "to_square": "d5",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d5",
+      "to_square": "e3",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "d5",
+      "to_square": "e7",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "e7",
+      "to_square": "d6",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "e7",
+      "to_square": "d8",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d8",
+      "to_square": "e7",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "e8",
+      "to_square": "e7",
+      "kind": "capture",
+      "color": "#d32f2f"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "b5",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "c5",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "d5",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "d6",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "d8",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "e3",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "e7",
+      "kind": "hanging_piece",
+      "color": "#ffb74d88"
+    }
+  ]
+}

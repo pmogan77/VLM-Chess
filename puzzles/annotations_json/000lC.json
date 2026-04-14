@@ -1,0 +1,161 @@
+{
+  "fen": "3r3r/pQNk1ppp/1qnb1n2/1B6/8/8/PPP3PP/3R1R1K w - - 5 19",
+  "side_to_move": "white",
+  "arrows": [
+    {
+      "from_square": "d1",
+      "to_square": "d6",
+      "kind": "capture_check",
+      "color": "#7b1fa2"
+    },
+    {
+      "from_square": "f1",
+      "to_square": "f6",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "b5",
+      "to_square": "c6",
+      "kind": "capture_check",
+      "color": "#7b1fa2"
+    },
+    {
+      "from_square": "b6",
+      "to_square": "b5",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "b6",
+      "to_square": "b7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "b6",
+      "to_square": "c7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d6",
+      "to_square": "h2",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "d6",
+      "to_square": "c7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    },
+    {
+      "from_square": "b7",
+      "to_square": "b6",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "b7",
+      "to_square": "c6",
+      "kind": "capture_check",
+      "color": "#7b1fa2"
+    },
+    {
+      "from_square": "b7",
+      "to_square": "a7",
+      "kind": "capture",
+      "color": "#d32f2f"
+    },
+    {
+      "from_square": "b7",
+      "to_square": "c8",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "c7",
+      "to_square": "d5",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "c7",
+      "to_square": "a6",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "c7",
+      "to_square": "e6",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "c7",
+      "to_square": "a8",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "c7",
+      "to_square": "e8",
+      "kind": "check",
+      "color": "#1976d2"
+    },
+    {
+      "from_square": "d7",
+      "to_square": "c7",
+      "kind": "opponent_pressure",
+      "color": "#fb8c00"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "a7",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "b5",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "b6",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "b7",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "c6",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "c7",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    },
+    {
+      "square": "d6",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "f6",
+      "kind": "capture_target",
+      "color": "#ef9a9a66"
+    },
+    {
+      "square": "h2",
+      "kind": "under_pressure",
+      "color": "#ffcc8066"
+    }
+  ]
+}
