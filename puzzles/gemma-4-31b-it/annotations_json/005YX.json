@@ -1,0 +1,252 @@
+{
+  "id": "005YX",
+  "image_path": "puzzles\\plain_boards\\005YX.png",
+  "input_annotation_json_path": "puzzles\\annotations_json\\005YX.json",
+  "side_to_move": "white",
+  "fen": "2rr4/2N2pk1/p1Q1b1pp/1p4q1/3pP3/1B1P4/PPP3PP/6RK w - - 7 25",
+  "model": "google/gemma-4-31b-it",
+  "my_pieces": [
+    {
+      "square": "h1",
+      "piece": "K"
+    },
+    {
+      "square": "g1",
+      "piece": "R"
+    },
+    {
+      "square": "c6",
+      "piece": "Q"
+    },
+    {
+      "square": "c7",
+      "piece": "N"
+    },
+    {
+      "square": "b3",
+      "piece": "B"
+    },
+    {
+      "square": "e6",
+      "piece": "B"
+    },
+    {
+      "square": "a2",
+      "piece": "P"
+    },
+    {
+      "square": "b2",
+      "piece": "P"
+    },
+    {
+      "square": "c2",
+      "piece": "P"
+    },
+    {
+      "square": "d3",
+      "piece": "P"
+    },
+    {
+      "square": "e4",
+      "piece": "P"
+    },
+    {
+      "square": "g2",
+      "piece": "P"
+    },
+    {
+      "square": "h2",
+      "piece": "P"
+    }
+  ],
+  "opponent_pieces": [
+    {
+      "square": "g7",
+      "piece": "k"
+    },
+    {
+      "square": "g5",
+      "piece": "q"
+    },
+    {
+      "square": "c8",
+      "piece": "r"
+    },
+    {
+      "square": "d8",
+      "piece": "r"
+    },
+    {
+      "square": "a6",
+      "piece": "p"
+    },
+    {
+      "square": "b5",
+      "piece": "p"
+    },
+    {
+      "square": "d4",
+      "piece": "p"
+    },
+    {
+      "square": "f7",
+      "piece": "p"
+    },
+    {
+      "square": "g6",
+      "piece": "p"
+    },
+    {
+      "square": "h6",
+      "piece": "p"
+    }
+  ],
+  "valid_my_pieces": [
+    {
+      "square": "h1",
+      "piece": "K"
+    },
+    {
+      "square": "g1",
+      "piece": "R"
+    },
+    {
+      "square": "c6",
+      "piece": "Q"
+    },
+    {
+      "square": "c7",
+      "piece": "N"
+    },
+    {
+      "square": "b3",
+      "piece": "B"
+    },
+    {
+      "square": "a2",
+      "piece": "P"
+    },
+    {
+      "square": "b2",
+      "piece": "P"
+    },
+    {
+      "square": "c2",
+      "piece": "P"
+    },
+    {
+      "square": "d3",
+      "piece": "P"
+    },
+    {
+      "square": "e4",
+      "piece": "P"
+    },
+    {
+      "square": "g2",
+      "piece": "P"
+    },
+    {
+      "square": "h2",
+      "piece": "P"
+    }
+  ],
+  "invalid_my_pieces": [
+    {
+      "square": "e6",
+      "piece": "B",
+      "reason": "wrong_side"
+    }
+  ],
+  "valid_opponent_pieces": [
+    {
+      "square": "g7",
+      "piece": "k"
+    },
+    {
+      "square": "g5",
+      "piece": "q"
+    },
+    {
+      "square": "c8",
+      "piece": "r"
+    },
+    {
+      "square": "d8",
+      "piece": "r"
+    },
+    {
+      "square": "a6",
+      "piece": "p"
+    },
+    {
+      "square": "b5",
+      "piece": "p"
+    },
+    {
+      "square": "d4",
+      "piece": "p"
+    },
+    {
+      "square": "f7",
+      "piece": "p"
+    },
+    {
+      "square": "g6",
+      "piece": "p"
+    },
+    {
+      "square": "h6",
+      "piece": "p"
+    }
+  ],
+  "invalid_opponent_pieces": [],
+  "candidate_move_arrows": [
+    {
+      "from": "c6",
+      "to": "a8",
+      "piece": "Q"
+    },
+    {
+      "from": "c7",
+      "to": "e8",
+      "piece": "N"
+    }
+  ],
+  "valid_candidate_move_arrows": [
+    {
+      "from": "c6",
+      "to": "a8",
+      "piece": "Q"
+    },
+    {
+      "from": "c7",
+      "to": "e8",
+      "piece": "N"
+    }
+  ],
+  "invalid_candidate_move_arrows": [],
+  "threat_arrows": [
+    {
+      "from": "g5",
+      "to": "g1",
+      "piece": "q"
+    }
+  ],
+  "valid_threat_arrows": [],
+  "invalid_threat_arrows": [
+    {
+      "from": "g5",
+      "to": "g1",
+      "piece": "q",
+      "reason": "not_a_plausible_threat_geometry"
+    }
+  ],
+  "key_squares": [
+    "f7",
+    "g7",
+    "e8"
+  ],
+  "debug_png": "puzzles\\gemma-4-31b-it\\annotated_boards_debug\\005YX.png",
+  "final_png": "puzzles\\gemma-4-31b-it\\annotated_boards_final\\005YX.png"
+}

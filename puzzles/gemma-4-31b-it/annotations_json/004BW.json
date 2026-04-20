@@ -1,0 +1,285 @@
+{
+  "id": "004BW",
+  "image_path": "puzzles\\plain_boards\\004BW.png",
+  "input_annotation_json_path": "puzzles\\annotations_json\\004BW.json",
+  "side_to_move": "white",
+  "fen": "r1bk2r1/ppq2pQp/3bpn2/1BpnN3/5P2/1P6/PBPP2PP/RN2K2R w KQ - 3 13",
+  "model": "google/gemma-4-31b-it",
+  "my_pieces": [
+    {
+      "square": "a1",
+      "piece": "R"
+    },
+    {
+      "square": "b1",
+      "piece": "N"
+    },
+    {
+      "square": "e1",
+      "piece": "K"
+    },
+    {
+      "square": "h1",
+      "piece": "R"
+    },
+    {
+      "square": "a2",
+      "piece": "P"
+    },
+    {
+      "square": "b2",
+      "piece": "B"
+    },
+    {
+      "square": "c2",
+      "piece": "P"
+    },
+    {
+      "square": "d2",
+      "piece": "P"
+    },
+    {
+      "square": "g2",
+      "piece": "P"
+    },
+    {
+      "square": "h2",
+      "piece": "P"
+    },
+    {
+      "square": "b3",
+      "piece": "P"
+    },
+    {
+      "square": "b5",
+      "piece": "B"
+    },
+    {
+      "square": "e5",
+      "piece": "N"
+    },
+    {
+      "square": "f4",
+      "piece": "P"
+    },
+    {
+      "square": "g7",
+      "piece": "Q"
+    }
+  ],
+  "opponent_pieces": [
+    {
+      "square": "a8",
+      "piece": "r"
+    },
+    {
+      "square": "c8",
+      "piece": "b"
+    },
+    {
+      "square": "d8",
+      "piece": "k"
+    },
+    {
+      "square": "g8",
+      "piece": "r"
+    },
+    {
+      "square": "a7",
+      "piece": "p"
+    },
+    {
+      "square": "b7",
+      "piece": "p"
+    },
+    {
+      "square": "c7",
+      "piece": "q"
+    },
+    {
+      "square": "f7",
+      "piece": "p"
+    },
+    {
+      "square": "h7",
+      "piece": "p"
+    },
+    {
+      "square": "d6",
+      "piece": "b"
+    },
+    {
+      "square": "e6",
+      "piece": "p"
+    },
+    {
+      "square": "f6",
+      "piece": "n"
+    },
+    {
+      "square": "c5",
+      "piece": "p"
+    },
+    {
+      "square": "d5",
+      "piece": "n"
+    }
+  ],
+  "valid_my_pieces": [
+    {
+      "square": "a1",
+      "piece": "R"
+    },
+    {
+      "square": "b1",
+      "piece": "N"
+    },
+    {
+      "square": "e1",
+      "piece": "K"
+    },
+    {
+      "square": "h1",
+      "piece": "R"
+    },
+    {
+      "square": "a2",
+      "piece": "P"
+    },
+    {
+      "square": "b2",
+      "piece": "B"
+    },
+    {
+      "square": "c2",
+      "piece": "P"
+    },
+    {
+      "square": "d2",
+      "piece": "P"
+    },
+    {
+      "square": "g2",
+      "piece": "P"
+    },
+    {
+      "square": "h2",
+      "piece": "P"
+    },
+    {
+      "square": "b3",
+      "piece": "P"
+    },
+    {
+      "square": "b5",
+      "piece": "B"
+    },
+    {
+      "square": "e5",
+      "piece": "N"
+    },
+    {
+      "square": "f4",
+      "piece": "P"
+    },
+    {
+      "square": "g7",
+      "piece": "Q"
+    }
+  ],
+  "invalid_my_pieces": [],
+  "valid_opponent_pieces": [
+    {
+      "square": "a8",
+      "piece": "r"
+    },
+    {
+      "square": "c8",
+      "piece": "b"
+    },
+    {
+      "square": "d8",
+      "piece": "k"
+    },
+    {
+      "square": "g8",
+      "piece": "r"
+    },
+    {
+      "square": "a7",
+      "piece": "p"
+    },
+    {
+      "square": "b7",
+      "piece": "p"
+    },
+    {
+      "square": "c7",
+      "piece": "q"
+    },
+    {
+      "square": "f7",
+      "piece": "p"
+    },
+    {
+      "square": "h7",
+      "piece": "p"
+    },
+    {
+      "square": "d6",
+      "piece": "b"
+    },
+    {
+      "square": "e6",
+      "piece": "p"
+    },
+    {
+      "square": "f6",
+      "piece": "n"
+    },
+    {
+      "square": "c5",
+      "piece": "p"
+    },
+    {
+      "square": "d5",
+      "piece": "n"
+    }
+  ],
+  "invalid_opponent_pieces": [],
+  "candidate_move_arrows": [
+    {
+      "from": "e5",
+      "to": "d7",
+      "piece": "N"
+    }
+  ],
+  "valid_candidate_move_arrows": [
+    {
+      "from": "e5",
+      "to": "d7",
+      "piece": "N"
+    }
+  ],
+  "invalid_candidate_move_arrows": [],
+  "threat_arrows": [
+    {
+      "from": "d5",
+      "to": "f4",
+      "piece": "n"
+    }
+  ],
+  "valid_threat_arrows": [
+    {
+      "from": "d5",
+      "to": "f4",
+      "piece": "n"
+    }
+  ],
+  "invalid_threat_arrows": [],
+  "key_squares": [
+    "d7"
+  ],
+  "debug_png": "puzzles\\gemma-4-31b-it\\annotated_boards_debug\\004BW.png",
+  "final_png": "puzzles\\gemma-4-31b-it\\annotated_boards_final\\004BW.png"
+}

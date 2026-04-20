@@ -9,7 +9,7 @@ import chess
 import chess.svg
 import cairosvg
 
-from chess_gold_annotations_v1 import (
+from chess_gold_annotations import (
     generate_gold_annotations,
     render_annotations_to_png,
     save_annotations_json,
@@ -181,3 +181,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# this file generates the starting dataset to do all the rest of the work on
+
+# python batch_render_middlegame_puzzles.py puzzles.csv --output-dir puzzle_renders --size 720  --orientation side_to_move --limit 100

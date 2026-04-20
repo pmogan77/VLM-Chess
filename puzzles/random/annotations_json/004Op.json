@@ -1,0 +1,49 @@
+{
+  "id": "004Op",
+  "input_annotation_json_path": "puzzles\\annotations_json\\004Op.json",
+  "side_to_move": "white",
+  "fen": "2kr2r1/1bp4n/1pq1p2p/p1P5/1P3B2/P6P/5RP1/RB2Q1K1 w - - 3 26",
+  "model": "random",
+  "baseline_type": "random_baseline",
+  "baseline_seed": "12345:004Op",
+  "candidate_move_arrows": [
+    {
+      "from": "f4",
+      "to": "c1",
+      "piece": "B"
+    },
+    {
+      "from": "e1",
+      "to": "f1",
+      "piece": "Q"
+    },
+    {
+      "from": "g1",
+      "to": "h2",
+      "piece": "K"
+    }
+  ],
+  "threat_arrows": [
+    {
+      "from": "c6",
+      "to": "e4",
+      "piece": "q"
+    },
+    {
+      "from": "c6",
+      "to": "c5",
+      "piece": "q"
+    },
+    {
+      "from": "b7",
+      "to": "c6",
+      "piece": "b"
+    }
+  ],
+  "key_squares": [
+    "d7",
+    "c1",
+    "e5"
+  ],
+  "final_png": "puzzles\\random\\annotated_boards\\004Op.png"
+}

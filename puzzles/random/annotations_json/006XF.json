@@ -1,0 +1,49 @@
+{
+  "id": "006XF",
+  "input_annotation_json_path": "puzzles\\annotations_json\\006XF.json",
+  "side_to_move": "black",
+  "fen": "r5kr/pp1qb1p1/2p4p/3pPb1Q/3P4/2P1B3/PP4PP/R4RK1 b - - 1 17",
+  "model": "random",
+  "baseline_type": "random_baseline",
+  "baseline_seed": "12345:006XF",
+  "candidate_move_arrows": [
+    {
+      "from": "f5",
+      "to": "d3",
+      "piece": "b"
+    },
+    {
+      "from": "e7",
+      "to": "d8",
+      "piece": "b"
+    },
+    {
+      "from": "f5",
+      "to": "h3",
+      "piece": "b"
+    }
+  ],
+  "threat_arrows": [
+    {
+      "from": "h5",
+      "to": "f7",
+      "piece": "Q"
+    },
+    {
+      "from": "e3",
+      "to": "h6",
+      "piece": "B"
+    },
+    {
+      "from": "f1",
+      "to": "f4",
+      "piece": "R"
+    }
+  ],
+  "key_squares": [
+    "g4",
+    "e1",
+    "g8"
+  ],
+  "final_png": "puzzles\\random\\annotated_boards\\006XF.png"
+}
