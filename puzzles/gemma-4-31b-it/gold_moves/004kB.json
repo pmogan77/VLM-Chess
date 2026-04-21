@@ -1,0 +1,18 @@
+{
+  "id": "004kB",
+  "image_path": "puzzles\\annotated_boards\\004kB.png",
+  "input_annotation_json_path": "puzzles\\annotations_json\\004kB.json",
+  "side_to_move": "white",
+  "fen": "4rr1k/pQpn2pp/3p1q2/8/8/2P5/PP3PPP/RN3RK1 w - - 1 16",
+  "model": "google/gemma-4-31b-it",
+  "baseline_type": "gold_annotated_image_to_moves",
+  "move_data": {
+    "candidate_moves": [
+      "b7a7"
+    ],
+    "valid_candidate_moves": [
+      "b7a7"
+    ],
+    "invalid_candidate_moves": []
+  }
+}

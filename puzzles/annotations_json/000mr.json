@@ -5,60 +5,54 @@
     {
       "from_square": "e3",
       "to_square": "e2",
-      "kind": "capture",
-      "color": "#d32f2f"
+      "kind": "candidate_move",
+      "color": "#2e7d32"
     },
     {
       "from_square": "g4",
       "to_square": "g2",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "g4",
-      "to_square": "g2",
-      "kind": "pin",
-      "color": "#8e24aa"
-    },
-    {
-      "from_square": "g4",
       "to_square": "f4",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "e5",
       "to_square": "g7",
-      "kind": "capture_check",
-      "color": "#7b1fa2"
+      "kind": "candidate_move",
+      "color": "#2e7d32"
     },
     {
       "from_square": "f7",
       "to_square": "f4",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     }
   ],
   "highlighted_squares": [
     {
       "square": "e2",
-      "kind": "capture_target",
-      "color": "#ef9a9a66"
-    },
-    {
-      "square": "f4",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
       "square": "g2",
-      "kind": "pinned_piece",
-      "color": "#8e24aa66"
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f4",
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
       "square": "g7",
-      "kind": "capture_target",
-      "color": "#ef9a9a66"
+      "kind": "key_square",
+      "color": "#42a5f566"
     }
   ]
 }

@@ -5,84 +5,48 @@
     {
       "from_square": "f4",
       "to_square": "e5",
-      "kind": "opponent_pressure",
-      "color": "#fb8c00"
-    },
-    {
-      "from_square": "g6",
-      "to_square": "f7",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "f7",
       "to_square": "g6",
-      "kind": "capture",
-      "color": "#d32f2f"
+      "kind": "candidate_move",
+      "color": "#2e7d32"
     },
     {
       "from_square": "h8",
       "to_square": "g7",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "h8",
       "to_square": "d8",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     }
   ],
   "highlighted_squares": [
     {
-      "square": "a1",
-      "kind": "hanging_piece",
-      "color": "#ffb74d88"
-    },
-    {
-      "square": "b4",
-      "kind": "hanging_piece",
-      "color": "#ffb74d88"
-    },
-    {
-      "square": "d5",
-      "kind": "hanging_piece",
-      "color": "#ffb74d88"
-    },
-    {
-      "square": "d8",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
-    },
-    {
       "square": "e5",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
-    },
-    {
-      "square": "f4",
-      "kind": "hanging_piece",
-      "color": "#ffb74d88"
-    },
-    {
-      "square": "f7",
-      "kind": "checked_king",
-      "color": "#e53935aa"
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
       "square": "g6",
-      "kind": "hanging_piece",
-      "color": "#ffb74d88"
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
       "square": "g7",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
-      "square": "h8",
-      "kind": "hanging_piece",
-      "color": "#ffb74d88"
+      "square": "d8",
+      "kind": "key_square",
+      "color": "#42a5f566"
     }
   ]
 }

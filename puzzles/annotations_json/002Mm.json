@@ -5,31 +5,15 @@
     {
       "from_square": "h7",
       "to_square": "g7",
-      "kind": "opponent_pressure",
-      "color": "#fb8c00"
-    },
-    {
-      "from_square": "h7",
-      "to_square": "g8",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     }
   ],
   "highlighted_squares": [
     {
       "square": "g7",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
-    },
-    {
-      "square": "g8",
-      "kind": "checked_king",
-      "color": "#e53935aa"
-    },
-    {
-      "square": "h7",
-      "kind": "checking_piece",
-      "color": "#9575cd88"
+      "kind": "key_square",
+      "color": "#42a5f566"
     }
   ]
 }

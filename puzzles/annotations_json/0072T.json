@@ -5,83 +5,77 @@
     {
       "from_square": "e4",
       "to_square": "f2",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "e4",
       "to_square": "d6",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "h4",
       "to_square": "f2",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "a6",
       "to_square": "b5",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "c7",
       "to_square": "a6",
-      "kind": "capture",
-      "color": "#d32f2f"
-    },
-    {
-      "from_square": "f7",
-      "to_square": "f2",
-      "kind": "opponent_pressure",
-      "color": "#fb8c00"
+      "kind": "candidate_move",
+      "color": "#2e7d32"
     },
     {
       "from_square": "f7",
       "to_square": "c7",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "d8",
       "to_square": "d6",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "d8",
       "to_square": "c7",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     }
   ],
   "highlighted_squares": [
     {
-      "square": "a6",
-      "kind": "capture_target",
-      "color": "#ef9a9a66"
+      "square": "f2",
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
       "square": "b5",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
-      "square": "c7",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
+      "square": "a6",
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
       "square": "d6",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
-      "square": "f2",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
+      "square": "c7",
+      "kind": "key_square",
+      "color": "#42a5f566"
     }
   ]
 }

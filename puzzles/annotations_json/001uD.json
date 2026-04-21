@@ -5,71 +5,71 @@
     {
       "from_square": "c2",
       "to_square": "d2",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "c2",
       "to_square": "c4",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "d2",
       "to_square": "f3",
-      "kind": "capture_check",
-      "color": "#7b1fa2"
+      "kind": "candidate_move",
+      "color": "#2e7d32"
     },
     {
       "from_square": "a3",
       "to_square": "e3",
-      "kind": "capture",
-      "color": "#d32f2f"
+      "kind": "candidate_move",
+      "color": "#2e7d32"
     },
     {
       "from_square": "f3",
       "to_square": "d2",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "f3",
       "to_square": "e5",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "c4",
       "to_square": "e3",
-      "kind": "capture",
-      "color": "#d32f2f"
+      "kind": "candidate_move",
+      "color": "#2e7d32"
     }
   ],
   "highlighted_squares": [
     {
-      "square": "c4",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
-    },
-    {
       "square": "d2",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
       "square": "e3",
-      "kind": "capture_target",
-      "color": "#ef9a9a66"
-    },
-    {
-      "square": "e5",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
       "square": "f3",
-      "kind": "capture_target",
-      "color": "#ef9a9a66"
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "c4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "e5",
+      "kind": "key_square",
+      "color": "#42a5f566"
     }
   ]
 }

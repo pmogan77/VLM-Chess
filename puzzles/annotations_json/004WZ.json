@@ -5,37 +5,26 @@
     {
       "from_square": "f1",
       "to_square": "g1",
-      "kind": "capture",
-      "color": "#d32f2f"
-    },
-    {
-      "from_square": "g1",
-      "to_square": "f1",
-      "kind": "opponent_pressure",
-      "color": "#fb8c00"
+      "kind": "candidate_move",
+      "color": "#2e7d32"
     },
     {
       "from_square": "c6",
       "to_square": "a4",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     }
   ],
   "highlighted_squares": [
     {
-      "square": "a4",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
-    },
-    {
-      "square": "f1",
-      "kind": "checked_king",
-      "color": "#e53935aa"
-    },
-    {
       "square": "g1",
-      "kind": "hanging_piece",
-      "color": "#ffb74d88"
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "a4",
+      "kind": "key_square",
+      "color": "#42a5f566"
     }
   ]
 }

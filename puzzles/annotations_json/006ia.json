@@ -5,81 +5,81 @@
     {
       "from_square": "b2",
       "to_square": "c1",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "b2",
       "to_square": "a2",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "b2",
       "to_square": "e2",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "b2",
       "to_square": "c3",
-      "kind": "opponent_pressure",
+      "kind": "threat",
       "color": "#fb8c00"
     },
     {
       "from_square": "e2",
       "to_square": "b2",
-      "kind": "capture",
-      "color": "#d32f2f"
+      "kind": "candidate_move",
+      "color": "#2e7d32"
     },
     {
       "from_square": "c3",
       "to_square": "d5",
-      "kind": "capture",
-      "color": "#d32f2f"
+      "kind": "candidate_move",
+      "color": "#2e7d32"
     },
     {
       "from_square": "e3",
       "to_square": "h6",
-      "kind": "capture",
-      "color": "#d32f2f"
+      "kind": "candidate_move",
+      "color": "#2e7d32"
     }
   ],
   "highlighted_squares": [
     {
+      "square": "c1",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
       "square": "a2",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
       "square": "b2",
-      "kind": "capture_target",
-      "color": "#ef9a9a66"
-    },
-    {
-      "square": "c1",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
-    },
-    {
-      "square": "c3",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
-    },
-    {
-      "square": "d5",
-      "kind": "capture_target",
-      "color": "#ef9a9a66"
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
       "square": "e2",
-      "kind": "under_pressure",
-      "color": "#ffcc8066"
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "c3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "d5",
+      "kind": "key_square",
+      "color": "#42a5f566"
     },
     {
       "square": "h6",
-      "kind": "capture_target",
-      "color": "#ef9a9a66"
+      "kind": "key_square",
+      "color": "#42a5f566"
     }
   ]
 }
