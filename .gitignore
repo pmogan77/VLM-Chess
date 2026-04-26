@@ -1,4 +1,5 @@
 /__pycache__
 lichess_db_puzzle.csv
+lichess_db_puzzle.csv.zst
 .env
 */__pycache__/*

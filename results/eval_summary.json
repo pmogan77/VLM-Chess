@@ -1,0 +1,52 @@
+{
+  "model_moves": {
+    "n_puzzles": 99,
+    "hallucination_rate_mean": 0.27794612794612794,
+    "recall_at_k_mean": 0.1284511784511784,
+    "hit_at_k_mean": 0.36363636363636365,
+    "top1_hit_rate": 0.18181818181818182,
+    "cp_gap_mean": 9924.5421686747,
+    "mrr_mean": 0.24966329966329961,
+    "n_puzzles_no_legal_candidates": 16
+  },
+  "plain_moves": {
+    "n_puzzles": 99,
+    "hallucination_rate_mean": 0.3754208754208753,
+    "recall_at_k_mean": 0.18956228956228943,
+    "hit_at_k_mean": 0.5555555555555556,
+    "top1_hit_rate": 0.1919191919191919,
+    "cp_gap_mean": 3663.8045977011493,
+    "mrr_mean": 0.32222222222222213,
+    "n_puzzles_no_legal_candidates": 12
+  },
+  "gold_moves": {
+    "n_puzzles": 99,
+    "hallucination_rate_mean": 0.31026936026936025,
+    "recall_at_k_mean": 0.12558922558922556,
+    "hit_at_k_mean": 0.30303030303030304,
+    "top1_hit_rate": 0.15151515151515152,
+    "cp_gap_mean": 4078.575,
+    "mrr_mean": 0.20942760942760938,
+    "n_puzzles_no_legal_candidates": 19
+  },
+  "random_moves": {
+    "n_puzzles": 99,
+    "hallucination_rate_mean": 0.20774410774410773,
+    "recall_at_k_mean": 0.142087542087542,
+    "hit_at_k_mean": 0.37373737373737376,
+    "top1_hit_rate": 0.12121212121212122,
+    "cp_gap_mean": 5756.923913043478,
+    "mrr_mean": 0.2031986531986531,
+    "n_puzzles_no_legal_candidates": 7
+  },
+  "text_only": {
+    "n_puzzles": 99,
+    "hallucination_rate_mean": 0.24612794612794614,
+    "recall_at_k_mean": 0.1786195286195285,
+    "hit_at_k_mean": 0.5454545454545454,
+    "top1_hit_rate": 0.2222222222222222,
+    "cp_gap_mean": 8160.965909090909,
+    "mrr_mean": 0.3474747474747474,
+    "n_puzzles_no_legal_candidates": 11
+  }
+}
