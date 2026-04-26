@@ -9,17 +9,17 @@
   "move_data": {
     "candidate_moves": [
       "b1c3",
-      "e2d2",
-      "b1d2",
       "c1a3",
-      "a2a3"
+      "c1e3",
+      "b1d2",
+      "a2a4"
     ],
     "valid_candidate_moves": [
       "b1c3",
-      "e2d2",
-      "b1d2",
       "c1a3",
-      "a2a3"
+      "c1e3",
+      "b1d2",
+      "a2a4"
     ],
     "invalid_candidate_moves": []
   }

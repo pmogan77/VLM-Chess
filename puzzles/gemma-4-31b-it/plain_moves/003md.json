@@ -8,21 +8,24 @@
   "baseline_type": "plain_image_to_moves",
   "move_data": {
     "candidate_moves": [
-      "h2g3",
-      "f2g3",
+      "h8f7",
+      "f2f3",
       "b1c3",
       "d2d3",
-      "d2d4"
+      "b1d2"
     ],
     "valid_candidate_moves": [
-      "h2g3",
+      "h8f7",
       "b1c3",
-      "d2d3",
-      "d2d4"
+      "d2d3"
     ],
     "invalid_candidate_moves": [
       {
-        "move": "f2g3",
+        "move": "f2f3",
+        "reason": "illegal_move"
+      },
+      {
+        "move": "b1d2",
         "reason": "illegal_move"
       }
     ]

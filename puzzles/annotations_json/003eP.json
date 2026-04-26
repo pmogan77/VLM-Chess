@@ -1,6 +1,19 @@
 {
   "fen": "8/r1b1q2k/2p3p1/2Pp4/1P2p1n1/2B1P3/NQ6/2K4R b - - 1 36",
   "side_to_move": "black",
-  "arrows": [],
-  "highlighted_squares": []
+  "arrows": [
+    {
+      "from_square": "h1",
+      "to_square": "h7",
+      "kind": "threat",
+      "color": "#c62828"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "h7",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
 }

@@ -1,0 +1,95 @@
+{
+  "id": "00AGs",
+  "input_annotation_json_path": "puzzles\\annotations_json\\00AGs.json",
+  "side_to_move": "black",
+  "fen": "rn2k2Q/5p2/2p1p1r1/1q4p1/8/8/4NPPP/3R1K1R b q - 5 23",
+  "model": "random",
+  "baseline_type": "random_baseline",
+  "baseline_seed": "12345:00AGs",
+  "candidate_move_arrows": [
+    {
+      "from": "e8",
+      "to": "e7",
+      "piece": "k"
+    },
+    {
+      "from": "g6",
+      "to": "g8",
+      "piece": "r"
+    }
+  ],
+  "threat_arrows": [
+    {
+      "from": "d1",
+      "to": "d8",
+      "piece": "R"
+    },
+    {
+      "from": "e2",
+      "to": "d4",
+      "piece": "N"
+    },
+    {
+      "from": "e2",
+      "to": "c3",
+      "piece": "N"
+    }
+  ],
+  "key_squares": [
+    "d6",
+    "d8",
+    "h2"
+  ],
+  "annotation_bundle": {
+    "arrows": [
+      {
+        "from_square": "e8",
+        "to_square": "e7",
+        "kind": "candidate_move",
+        "color": "#1e88e5"
+      },
+      {
+        "from_square": "g6",
+        "to_square": "g8",
+        "kind": "candidate_move",
+        "color": "#1e88e5"
+      },
+      {
+        "from_square": "d1",
+        "to_square": "d8",
+        "kind": "threat",
+        "color": "#c62828"
+      },
+      {
+        "from_square": "e2",
+        "to_square": "d4",
+        "kind": "threat",
+        "color": "#c62828"
+      },
+      {
+        "from_square": "e2",
+        "to_square": "c3",
+        "kind": "threat",
+        "color": "#c62828"
+      }
+    ],
+    "highlighted_squares": [
+      {
+        "square": "d6",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      },
+      {
+        "square": "d8",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      },
+      {
+        "square": "h2",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      }
+    ]
+  },
+  "final_png": "puzzles\\random\\annotated_boards\\00AGs.png"
+}

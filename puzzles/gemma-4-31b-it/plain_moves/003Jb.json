@@ -10,21 +10,17 @@
     "candidate_moves": [
       "d5d4",
       "c6c5",
-      "f8e7",
-      "e6e5",
-      "a7a6"
+      "f8b4",
+      "f8c5",
+      "e6e5"
     ],
     "valid_candidate_moves": [
       "d5d4",
       "c6c5",
-      "f8e7",
+      "f8b4",
+      "f8c5",
       "e6e5"
     ],
-    "invalid_candidate_moves": [
-      {
-        "move": "a7a6",
-        "reason": "illegal_move"
-      }
-    ]
+    "invalid_candidate_moves": []
   }
 }

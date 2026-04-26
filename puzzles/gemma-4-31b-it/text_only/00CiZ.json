@@ -1,0 +1,46 @@
+{
+  "id": "00CiZ",
+  "input_annotation_json_path": "puzzles\\annotations_json\\00CiZ.json",
+  "fen": "5r1k/6b1/3p3p/1P1q2pQ/r5P1/3p1N1P/3R2P1/4R2K w - - 2 34",
+  "side_to_move": "white",
+  "model": "google/gemma-4-31b-it",
+  "baseline_type": "text_only_same_conversation",
+  "annotation_data": {
+    "side_to_move": "white",
+    "candidate_move_arrows": [
+      {
+        "from": "e1",
+        "to": "e7",
+        "piece": "R"
+      },
+      {
+        "from": "f3",
+        "to": "g5",
+        "piece": "N"
+      }
+    ],
+    "threat_arrows": [
+      {
+        "from": "a4",
+        "to": "a1",
+        "piece": "r"
+      },
+      {
+        "from": "d5",
+        "to": "d2",
+        "piece": "q"
+      }
+    ],
+    "key_squares": [
+      "a1",
+      "d2",
+      "g7"
+    ]
+  },
+  "move_data": {
+    "candidate_moves": [
+      "e1e7",
+      "f3g5"
+    ]
+  }
+}

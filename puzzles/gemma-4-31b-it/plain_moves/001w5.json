@@ -10,22 +10,22 @@
     "candidate_moves": [
       "a7a2",
       "b8b2",
-      "d5e4",
-      "c8b7",
-      "g8h7"
+      "f8f2",
+      "c8e6",
+      "a7a1"
     ],
     "valid_candidate_moves": [
       "a7a2",
       "b8b2",
-      "c8b7"
+      "a7a1"
     ],
     "invalid_candidate_moves": [
       {
-        "move": "d5e4",
+        "move": "f8f2",
         "reason": "illegal_move"
       },
       {
-        "move": "g8h7",
+        "move": "c8e6",
         "reason": "illegal_move"
       }
     ]

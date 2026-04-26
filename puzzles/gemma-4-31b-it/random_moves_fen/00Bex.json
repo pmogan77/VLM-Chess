@@ -1,0 +1,30 @@
+{
+  "id": "00Bex",
+  "image_path": "puzzles\\random\\annotated_boards\\00Bex.png",
+  "input_annotation_json_path": "puzzles\\random\\annotations_json\\00Bex.json",
+  "side_to_move": "black",
+  "fen": "1rb1qrk1/6bp/2np4/2pNpp2/2P5/3P1B2/1B3PPP/1R1QR1K1 b - - 0 22",
+  "model": "google/gemma-4-31b-it",
+  "baseline_type": "gold_annotated_image_to_moves",
+  "move_data": {
+    "candidate_moves": [
+      "e5e4",
+      "c6e7",
+      "c8d7",
+      "g8h8",
+      "a7a5"
+    ],
+    "valid_candidate_moves": [
+      "e5e4",
+      "c6e7",
+      "c8d7",
+      "g8h8"
+    ],
+    "invalid_candidate_moves": [
+      {
+        "move": "a7a5",
+        "reason": "illegal_move"
+      }
+    ]
+  }
+}

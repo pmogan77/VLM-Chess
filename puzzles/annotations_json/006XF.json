@@ -6,25 +6,25 @@
       "from_square": "f1",
       "to_square": "f5",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "e3",
       "to_square": "h6",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "h5",
       "to_square": "f5",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "h5",
       "to_square": "h6",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     }
   ],
   "highlighted_squares": [

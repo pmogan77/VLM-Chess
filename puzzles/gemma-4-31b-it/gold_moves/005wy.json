@@ -1,6 +1,6 @@
 {
-  "id": "005wy",
-  "image_path": "puzzles\\annotated_boards\\005wy.png",
+  "id": "005wy_annotated",
+  "image_path": "puzzles\\annotated_boards\\005wy_annotated.png",
   "input_annotation_json_path": "puzzles\\annotations_json\\005wy.json",
   "side_to_move": "white",
   "fen": "1r6/pp2kpp1/2n1p1n1/3p2PQ/5P2/2PqP3/PP1N4/2KR3R w - - 3 27",

@@ -1,0 +1,114 @@
+{
+  "fen": "2r3k1/5p2/p3p1nQ/3pPP2/2qN4/2b3BP/7K/4R3 b - - 0 33",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "c3",
+      "to_square": "e1",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "c3",
+      "to_square": "d4",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "c4",
+      "to_square": "a2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "c4",
+      "to_square": "e2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "c4",
+      "to_square": "d4",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "d4",
+      "to_square": "e6",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "f5",
+      "to_square": "e6",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "f5",
+      "to_square": "g6",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "e6",
+      "to_square": "f5",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "g6",
+      "to_square": "e5",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "h6",
+      "to_square": "g6",
+      "kind": "threat",
+      "color": "#c62828"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "e1",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "a2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "e2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "d4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "e5",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f5",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "e6",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g6",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
+}

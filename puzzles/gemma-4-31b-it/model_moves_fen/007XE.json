@@ -1,0 +1,26 @@
+{
+  "id": "007XE",
+  "image_path": "puzzles\\gemma-4-31b-it\\model_arrows_fen\\annotated_boards_final\\007XE.png",
+  "input_annotation_json_path": "puzzles\\gemma-4-31b-it\\model_arrows_fen\\annotations_json\\007XE.json",
+  "side_to_move": "white",
+  "fen": "2kr3r/p1p1bpp1/2p2n1p/8/8/1P6/P1P1RPPP/RNB3K1 w - - 1 16",
+  "model": "google/gemma-4-31b-it",
+  "baseline_type": "gold_annotated_image_to_moves",
+  "move_data": {
+    "candidate_moves": [
+      "e2e7",
+      "b1c3",
+      "c1a3",
+      "c2c4",
+      "b1a3"
+    ],
+    "valid_candidate_moves": [
+      "e2e7",
+      "b1c3",
+      "c1a3",
+      "c2c4",
+      "b1a3"
+    ],
+    "invalid_candidate_moves": []
+  }
+}

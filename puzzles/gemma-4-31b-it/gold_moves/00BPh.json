@@ -1,0 +1,33 @@
+{
+  "id": "00BPh_annotated",
+  "image_path": "puzzles\\annotated_boards\\00BPh_annotated.png",
+  "input_annotation_json_path": "puzzles\\annotations_json\\00BPh.json",
+  "side_to_move": "black",
+  "fen": "r4rk1/1b1p1p1p/p2NpQpq/1p6/3R4/P7/1P3PPP/3R2K1 b - - 9 23",
+  "model": "google/gemma-4-31b-it",
+  "baseline_type": "gold_annotated_image_to_moves",
+  "move_data": {
+    "candidate_moves": [
+      "d6f5",
+      "d6c4",
+      "b5b4",
+      "a6a5",
+      "f8e8"
+    ],
+    "valid_candidate_moves": [
+      "b5b4",
+      "a6a5",
+      "f8e8"
+    ],
+    "invalid_candidate_moves": [
+      {
+        "move": "d6f5",
+        "reason": "illegal_move"
+      },
+      {
+        "move": "d6c4",
+        "reason": "illegal_move"
+      }
+    ]
+  }
+}

@@ -6,25 +6,25 @@
       "from_square": "f3",
       "to_square": "f6",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "f3",
       "to_square": "a8",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "e5",
       "to_square": "f6",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "c8",
       "to_square": "c3",
       "kind": "candidate_move",
-      "color": "#2e7d32"
+      "color": "#1e88e5"
     }
   ],
   "highlighted_squares": [

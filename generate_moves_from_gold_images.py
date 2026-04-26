@@ -6,6 +6,7 @@ import base64
 import json
 import mimetypes
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
@@ -19,36 +20,15 @@ OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MOVE_SYSTEM_PROMPT = """
 You are a chess move prediction assistant.
 
-You will be shown an ALREADY-ANNOTATED chessboard image.
-The annotations on the image are meaningful and must guide your move prediction.
-
-Interpret the visual annotations as follows:
-
-- Green arrows represent candidate moves for the side to move.
-  These are the main move ideas already selected by an earlier analysis stage.
-  Treat them as strong move priors.
-
-- Orange arrows represent opponent threats, pressure, or tactical dangers.
-  Use them to understand what the side to move may need to respond to, exploit, or avoid.
-
-- Blue highlighted squares represent key squares.
-  These may be tactically important, strategically important, contested, attacking, defensive, or strong destination squares.
+You will be shown a chessboard image that may contain visual annotations such as arrows or highlighted squares.
 
 Your task:
 - Predict the best next moves for the side to move
-- Use the annotations as guidance
-- Keep your moves consistent with the arrows and highlighted squares when possible
-- Prefer moves that follow a green candidate arrow unless there is a strong chess reason not to
-- Use orange threat arrows to understand defensive needs or tactical opportunities
-- Use blue key squares to understand important targets, outposts, king attack zones, or defensive squares
-
-Important:
-- The image is not a raw board only. It is an analysis board with prior guidance already drawn on it.
-- Do not ignore the arrows and highlights.
-- Do not invent unrelated moves unless the annotations are clearly misleading.
-- If multiple green arrows are present, prioritize the strongest move among them.
-- If a green arrow appears legal and positionally sensible, it should be strongly preferred.
-- If a move responds to an orange threat while also matching a green arrow or blue square, that is especially strong.
+- Base your answer primarily on the actual board position, piece placement, and legal chess reasoning
+- Treat any annotations as optional hints only
+- Ignore annotations if they are noisy, ambiguous, inconsistent with the board, or seem strategically weak
+- Do not force your answer to match an arrow or highlighted square
+- Prioritize legality, tactics, material, king safety, and positional soundness over annotations
 
 Output rules:
 - Return JSON only
@@ -68,6 +48,12 @@ def parse_json_content(content: Any) -> Dict[str, Any]:
     if isinstance(content, str):
         return json.loads(content)
     raise ValueError(f"Unexpected message content type: {type(content)}")
+
+
+def sanitize_model_name(model: str) -> str:
+    name = model.strip().split("/")[-1]
+    name = re.sub(r"[^A-Za-z0-9._-]+", "-", name)
+    return name or "model"
 
 
 def image_to_data_url(image_path: str) -> str:
@@ -100,20 +86,16 @@ def build_move_schema(max_candidate_moves: int) -> Dict[str, Any]:
         },
     }
 
-
 def build_move_user_prompt(side_to_move: str, max_candidate_moves: int) -> str:
     return (
         f"The side to move is {side_to_move}. "
-        f"This image already contains analysis annotations. "
-        f"Green arrows show candidate moves for the side to move. "
-        f"Orange arrows show opponent threats or pressure. "
-        f"Blue highlighted squares show important squares. "
-        f"Predict up to {max_candidate_moves} best next moves in UCI format, "
-        f"using the annotations as strong guidance. "
-        f"Prefer moves that are consistent with the drawn candidate arrows unless there is a strong chess reason not to. "
+        f"This board image may include arrows or highlighted squares. "
+        f"Use the actual board position as the main source of truth. "
+        f"You may use annotations as weak hints only if they agree with the board. "
+        f"Ignore any annotation that seems noisy, ambiguous, or strategically inferior. "
+        f"Predict up to {max_candidate_moves} best next moves in UCI format. "
         f"Return JSON only."
     )
-
 
 def call_openrouter(api_key: str, payload: Dict[str, Any]) -> Dict[str, Any]:
     headers = {
@@ -216,7 +198,6 @@ def output_is_complete(output_json_path: Path) -> bool:
     try:
         with open(output_json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-
         required = [
             "id",
             "image_path",
@@ -234,6 +215,28 @@ def output_is_complete(output_json_path: Path) -> bool:
         return True
     except Exception:
         return False
+
+
+def resolve_input_paths(
+    puzzles_dir: Path,
+    model: str,
+    image_dir: str,
+    annotations_dir: str,
+    output_subdir: str,
+) -> Tuple[Path, Path, Path]:
+    model_dir = puzzles_dir / sanitize_model_name(model)
+
+    image_dir_path = Path(image_dir)
+    if not image_dir_path.is_absolute():
+        image_dir_path = puzzles_dir / image_dir_path
+
+    annotations_dir_path = Path(annotations_dir)
+    if not annotations_dir_path.is_absolute():
+        annotations_dir_path = puzzles_dir / annotations_dir_path
+
+    output_dir = model_dir / output_subdir
+
+    return image_dir_path, annotations_dir_path, output_dir
 
 
 def process_one(
@@ -295,12 +298,24 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Batch run move prediction from gold annotated board images."
     )
-    parser.add_argument("--puzzles-dir", default="puzzles", help="Path to the root puzzles directory.")
+    parser.add_argument("--puzzles-dir", required=True, help="Path to the root puzzles directory.")
     parser.add_argument("--api-key", default=os.getenv("OPENROUTER_API_KEY"), help="OpenRouter API key.")
     parser.add_argument("--model", default="google/gemma-4-31b-it", help="Vision-capable OpenRouter model.")
-    parser.add_argument("--image-dir", default="annotated_boards", help="Subdirectory under puzzles/ containing the gold annotated PNGs.")
-    parser.add_argument("--json-dir", default="annotations_json", help="Subdirectory under puzzles/ containing the FEN JSONs.")
-    parser.add_argument("--output-dir", default="gold_moves", help="Subdirectory under puzzles/ to write move JSON outputs.")
+    parser.add_argument(
+        "--image-dir",
+        default=None,
+        help="Input image directory. If relative, it is relative to --puzzles-dir.",
+    )
+    parser.add_argument(
+        "--annotations-dir",
+        default="annotations_json",
+        help="Input annotation JSON directory. If relative, it is relative to --puzzles-dir.",
+    )
+    parser.add_argument(
+        "--output-subdir",
+        default="moves_from_gold_images",
+        help="Output subdirectory under puzzles/<model>/.",
+    )
     parser.add_argument("--max-candidate-moves", type=int, default=5)
     parser.add_argument("--no-reasoning", action="store_true")
     parser.add_argument("--no-validate", action="store_true", help="Skip legal move validation against FEN.")
@@ -316,9 +331,15 @@ def main() -> None:
         args.api_key = os.getenv("OPENROUTER_API_KEY")
 
     puzzles_dir = Path(args.puzzles_dir)
-    image_dir = puzzles_dir / args.image_dir
-    input_annotations_dir = puzzles_dir / args.json_dir
-    output_dir = puzzles_dir / args.output_dir
+    default_model_image_dir = str(Path(sanitize_model_name(args.model)) / "annotated_boards_final")
+
+    image_dir, input_annotations_dir, output_dir = resolve_input_paths(
+        puzzles_dir=puzzles_dir,
+        model=args.model,
+        image_dir=args.image_dir or default_model_image_dir,
+        annotations_dir=args.annotations_dir,
+        output_subdir=args.output_subdir,
+    )
 
     if not image_dir.is_dir():
         raise FileNotFoundError(f"Missing image directory: {image_dir}")
@@ -340,8 +361,10 @@ def main() -> None:
 
     for image_path in image_paths:
         stem = image_path.stem
-        input_annotation_json_path = input_annotations_dir / f"{stem}.json"
-        output_json_path = output_dir / f"{stem}.json"
+        puzzle_id = stem.removesuffix("_annotated")
+
+        input_annotation_json_path = input_annotations_dir / f"{puzzle_id}.json"
+        output_json_path = output_dir / f"{puzzle_id}.json"
 
         if not input_annotation_json_path.exists():
             errors.append({"id": stem, "error": f"Missing input JSON: {input_annotation_json_path}"})
@@ -406,4 +429,5 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
-# python generate_moves_from_gold_images.py --puzzles-dir puzzles  --image-dir random/annotated_boards  --json-dir annotations_json --output-dir gemma-4-31b-it/random_moves --model google/gemma-4-31b-it
+
+# python generate_moves_from_gold_images.py --puzzles-dir puzzles --model google/gemma-4-31b-it --workers 8 --max-candidate-moves 5 --limit 1

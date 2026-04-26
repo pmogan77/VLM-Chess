@@ -9,23 +9,20 @@
   "move_data": {
     "candidate_moves": [
       "g4d4",
-      "g4a4",
-      "f8e8",
-      "a8a7",
-      "h8h7"
+      "a8d8",
+      "h8e8",
+      "f7f5",
+      "g4f4"
     ],
     "valid_candidate_moves": [
       "g4d4",
-      "a8a7",
-      "h8h7"
+      "a8d8",
+      "f7f5",
+      "g4f4"
     ],
     "invalid_candidate_moves": [
       {
-        "move": "g4a4",
-        "reason": "illegal_move"
-      },
-      {
-        "move": "f8e8",
+        "move": "h8e8",
         "reason": "illegal_move"
       }
     ]

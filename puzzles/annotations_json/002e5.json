@@ -6,25 +6,31 @@
       "from_square": "h1",
       "to_square": "h7",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "g4",
       "to_square": "d7",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
+    },
+    {
+      "from_square": "g5",
+      "to_square": "f7",
+      "kind": "threat",
+      "color": "#c62828"
     },
     {
       "from_square": "g5",
       "to_square": "h7",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "d8",
       "to_square": "g5",
       "kind": "candidate_move",
-      "color": "#2e7d32"
+      "color": "#1e88e5"
     }
   ],
   "highlighted_squares": [
@@ -35,6 +41,11 @@
     },
     {
       "square": "d7",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f7",
       "kind": "key_square",
       "color": "#42a5f566"
     },

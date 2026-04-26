@@ -1,0 +1,58 @@
+{
+  "fen": "rn2kbnr/pp6/2p2p2/4P3/4P1pq/2N3N1/PPPB2B1/R2Q1RK1 w kq - 1 17",
+  "side_to_move": "white",
+  "arrows": [
+    {
+      "from_square": "d1",
+      "to_square": "g4",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "f1",
+      "to_square": "f6",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "h4",
+      "to_square": "g3",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "e5",
+      "to_square": "f6",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "f6",
+      "to_square": "e5",
+      "kind": "threat",
+      "color": "#c62828"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "g3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "e5",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f6",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "00BZ6",
+  "input_annotation_json_path": "puzzles\\annotations_json\\00BZ6.json",
+  "side_to_move": "white",
+  "fen": "1r1r1bk1/3n1p1p/1qp3p1/2N1p3/PpQ1P3/4BP2/4N1PP/1R3RK1 w - - 0 24",
+  "model": "random",
+  "baseline_type": "random_baseline",
+  "baseline_seed": "12345:00BZ6",
+  "candidate_move_arrows": [
+    {
+      "from": "e3",
+      "to": "f4",
+      "piece": "B"
+    },
+    {
+      "from": "c4",
+      "to": "c3",
+      "piece": "Q"
+    },
+    {
+      "from": "c4",
+      "to": "d5",
+      "piece": "Q"
+    }
+  ],
+  "threat_arrows": [
+    {
+      "from": "c6",
+      "to": "d5",
+      "piece": "p"
+    },
+    {
+      "from": "e5",
+      "to": "d4",
+      "piece": "p"
+    },
+    {
+      "from": "b4",
+      "to": "c3",
+      "piece": "p"
+    }
+  ],
+  "key_squares": [
+    "e2",
+    "e7",
+    "d6"
+  ],
+  "annotation_bundle": {
+    "arrows": [
+      {
+        "from_square": "e3",
+        "to_square": "f4",
+        "kind": "candidate_move",
+        "color": "#1e88e5"
+      },
+      {
+        "from_square": "c4",
+        "to_square": "c3",
+        "kind": "candidate_move",
+        "color": "#1e88e5"
+      },
+      {
+        "from_square": "c4",
+        "to_square": "d5",
+        "kind": "candidate_move",
+        "color": "#1e88e5"
+      },
+      {
+        "from_square": "c6",
+        "to_square": "d5",
+        "kind": "threat",
+        "color": "#c62828"
+      },
+      {
+        "from_square": "e5",
+        "to_square": "d4",
+        "kind": "threat",
+        "color": "#c62828"
+      },
+      {
+        "from_square": "b4",
+        "to_square": "c3",
+        "kind": "threat",
+        "color": "#c62828"
+      }
+    ],
+    "highlighted_squares": [
+      {
+        "square": "e2",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      },
+      {
+        "square": "e7",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      },
+      {
+        "square": "d6",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      }
+    ]
+  },
+  "final_png": "puzzles\\random\\annotated_boards\\00BZ6.png"
+}

@@ -1,0 +1,248 @@
+{
+  "id": "002Q2",
+  "image_path": "puzzles\\plain_boards\\002Q2.png",
+  "input_annotation_json_path": "puzzles\\annotations_json\\002Q2.json",
+  "side_to_move": "white",
+  "fen": "7k/p4R1p/3p3r/2pN1n2/2PbBBb1/3P2P1/P3r3/5R1K w - - 1 28",
+  "model": "google/gemma-4-31b-it",
+  "my_pieces": [
+    {
+      "square": "a2",
+      "piece": "P"
+    },
+    {
+      "square": "c4",
+      "piece": "P"
+    },
+    {
+      "square": "d3",
+      "piece": "P"
+    },
+    {
+      "square": "g3",
+      "piece": "P"
+    },
+    {
+      "square": "d5",
+      "piece": "N"
+    },
+    {
+      "square": "e4",
+      "piece": "B"
+    },
+    {
+      "square": "f4",
+      "piece": "B"
+    },
+    {
+      "square": "f7",
+      "piece": "R"
+    },
+    {
+      "square": "f1",
+      "piece": "R"
+    },
+    {
+      "square": "h1",
+      "piece": "K"
+    }
+  ],
+  "opponent_pieces": [
+    {
+      "square": "a7",
+      "piece": "p"
+    },
+    {
+      "square": "c5",
+      "piece": "p"
+    },
+    {
+      "square": "d6",
+      "piece": "p"
+    },
+    {
+      "square": "h7",
+      "piece": "p"
+    },
+    {
+      "square": "f5",
+      "piece": "n"
+    },
+    {
+      "square": "d4",
+      "piece": "b"
+    },
+    {
+      "square": "g4",
+      "piece": "b"
+    },
+    {
+      "square": "e2",
+      "piece": "r"
+    },
+    {
+      "square": "h6",
+      "piece": "r"
+    },
+    {
+      "square": "h8",
+      "piece": "k"
+    }
+  ],
+  "valid_my_pieces": [
+    {
+      "square": "a2",
+      "piece": "P"
+    },
+    {
+      "square": "c4",
+      "piece": "P"
+    },
+    {
+      "square": "d3",
+      "piece": "P"
+    },
+    {
+      "square": "g3",
+      "piece": "P"
+    },
+    {
+      "square": "d5",
+      "piece": "N"
+    },
+    {
+      "square": "e4",
+      "piece": "B"
+    },
+    {
+      "square": "f4",
+      "piece": "B"
+    },
+    {
+      "square": "f7",
+      "piece": "R"
+    },
+    {
+      "square": "f1",
+      "piece": "R"
+    },
+    {
+      "square": "h1",
+      "piece": "K"
+    }
+  ],
+  "invalid_my_pieces": [],
+  "valid_opponent_pieces": [
+    {
+      "square": "a7",
+      "piece": "p"
+    },
+    {
+      "square": "c5",
+      "piece": "p"
+    },
+    {
+      "square": "d6",
+      "piece": "p"
+    },
+    {
+      "square": "h7",
+      "piece": "p"
+    },
+    {
+      "square": "f5",
+      "piece": "n"
+    },
+    {
+      "square": "d4",
+      "piece": "b"
+    },
+    {
+      "square": "g4",
+      "piece": "b"
+    },
+    {
+      "square": "e2",
+      "piece": "r"
+    },
+    {
+      "square": "h6",
+      "piece": "r"
+    },
+    {
+      "square": "h8",
+      "piece": "k"
+    }
+  ],
+  "invalid_opponent_pieces": [],
+  "candidate_move_arrows": [
+    {
+      "from": "f7",
+      "to": "f8",
+      "piece": "R"
+    },
+    {
+      "from": "d5",
+      "to": "f6",
+      "piece": "N"
+    }
+  ],
+  "valid_candidate_move_arrows": [],
+  "invalid_candidate_move_arrows": [
+    {
+      "from": "f7",
+      "to": "f8",
+      "piece": "R",
+      "reason": "illegal_move"
+    },
+    {
+      "from": "d5",
+      "to": "f6",
+      "piece": "N",
+      "reason": "illegal_move"
+    }
+  ],
+  "threat_arrows": [
+    {
+      "from": "e2",
+      "to": "a2",
+      "piece": "r"
+    },
+    {
+      "from": "f5",
+      "to": "g3",
+      "piece": "n"
+    },
+    {
+      "from": "d4",
+      "to": "f2",
+      "piece": "b"
+    }
+  ],
+  "valid_threat_arrows": [
+    {
+      "from": "e2",
+      "to": "a2",
+      "piece": "r"
+    },
+    {
+      "from": "f5",
+      "to": "g3",
+      "piece": "n"
+    },
+    {
+      "from": "d4",
+      "to": "f2",
+      "piece": "b",
+      "reason": "threatened_square_not_my_piece"
+    }
+  ],
+  "invalid_threat_arrows": [],
+  "key_squares": [
+    "f8",
+    "f2",
+    "g3"
+  ],
+  "debug_png": "puzzles\\gemma-4-31b-it\\model_arrows\\annotated_boards_debug\\002Q2.png",
+  "final_png": "puzzles\\gemma-4-31b-it\\model_arrows\\annotated_boards_final\\002Q2.png"
+}

@@ -45,5 +45,62 @@
     "c1",
     "b7"
   ],
+  "annotation_bundle": {
+    "arrows": [
+      {
+        "from_square": "e5",
+        "to_square": "d5",
+        "kind": "candidate_move",
+        "color": "#1e88e5"
+      },
+      {
+        "from_square": "e5",
+        "to_square": "h5",
+        "kind": "candidate_move",
+        "color": "#1e88e5"
+      },
+      {
+        "from_square": "a8",
+        "to_square": "a7",
+        "kind": "candidate_move",
+        "color": "#1e88e5"
+      },
+      {
+        "from_square": "d3",
+        "to_square": "e4",
+        "kind": "threat",
+        "color": "#c62828"
+      },
+      {
+        "from_square": "b2",
+        "to_square": "c3",
+        "kind": "threat",
+        "color": "#c62828"
+      },
+      {
+        "from_square": "e2",
+        "to_square": "c3",
+        "kind": "threat",
+        "color": "#c62828"
+      }
+    ],
+    "highlighted_squares": [
+      {
+        "square": "b6",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      },
+      {
+        "square": "c1",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      },
+      {
+        "square": "b7",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      }
+    ]
+  },
   "final_png": "puzzles\\random\\annotated_boards\\002e8.png"
 }

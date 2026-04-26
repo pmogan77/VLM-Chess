@@ -1,0 +1,30 @@
+{
+  "id": "007tv",
+  "image_path": "puzzles\\plain_boards\\007tv.png",
+  "input_annotation_json_path": "puzzles\\annotations_json\\007tv.json",
+  "side_to_move": "black",
+  "fen": "r3k1nr/1pp2ppp/1pnp2q1/4p1B1/2B1P3/3P1Q1P/PPP2PP1/R4RK1 b kq - 0 11",
+  "model": "google/gemma-4-31b-it",
+  "baseline_type": "plain_image_to_moves",
+  "move_data": {
+    "candidate_moves": [
+      "c6d4",
+      "h7h6",
+      "g8e7",
+      "b6b5",
+      "e8c8"
+    ],
+    "valid_candidate_moves": [
+      "c6d4",
+      "h7h6",
+      "g8e7",
+      "b6b5"
+    ],
+    "invalid_candidate_moves": [
+      {
+        "move": "e8c8",
+        "reason": "illegal_move"
+      }
+    ]
+  }
+}

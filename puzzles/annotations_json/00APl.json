@@ -1,0 +1,63 @@
+{
+  "fen": "3b1k2/1p4r1/p3qp1Q/8/8/3B1bP1/PP3P1P/2R3K1 b - - 0 29",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "d3",
+      "to_square": "a6",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "e6",
+      "to_square": "e1",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "e6",
+      "to_square": "a2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "h6",
+      "to_square": "f6",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "h6",
+      "to_square": "g7",
+      "kind": "threat",
+      "color": "#c62828"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "e1",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "a2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "a6",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f6",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g7",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
+}

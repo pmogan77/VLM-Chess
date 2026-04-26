@@ -1,0 +1,36 @@
+{
+  "fen": "r4rk1/4p1bp/3p2p1/q1pP1P2/4QP2/4B3/1p5P/1BKR3R w - - 0 22",
+  "side_to_move": "white",
+  "arrows": [
+    {
+      "from_square": "b2",
+      "to_square": "c1",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "g6",
+      "to_square": "f5",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "f8",
+      "to_square": "f5",
+      "kind": "threat",
+      "color": "#c62828"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "c1",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f5",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
+}

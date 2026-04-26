@@ -1,0 +1,119 @@
+{
+  "fen": "Q4n1k/p2b2pp/3b4/2p5/4pq2/2Pn3P/PP1NBPP1/R1B2RK1 w - - 1 23",
+  "side_to_move": "white",
+  "arrows": [
+    {
+      "from_square": "d2",
+      "to_square": "e4",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "e2",
+      "to_square": "d3",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "d3",
+      "to_square": "c1",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "d3",
+      "to_square": "b2",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "d3",
+      "to_square": "f2",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "d2",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "f2",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "d7",
+      "to_square": "h3",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "a8",
+      "to_square": "e4",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "a8",
+      "to_square": "a7",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "a8",
+      "to_square": "f8",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "c1",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "b2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "d2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "d3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "h3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "e4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "a7",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f8",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
+}

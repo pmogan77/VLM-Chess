@@ -6,12 +6,23 @@
       "from_square": "h7",
       "to_square": "g7",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
+    },
+    {
+      "from_square": "h7",
+      "to_square": "g8",
+      "kind": "threat",
+      "color": "#c62828"
     }
   ],
   "highlighted_squares": [
     {
       "square": "g7",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g8",
       "kind": "key_square",
       "color": "#42a5f566"
     }

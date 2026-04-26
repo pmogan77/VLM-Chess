@@ -1,6 +1,19 @@
 {
   "fen": "5r1k/pp4pp/5p2/1BbQp1r1/6K1/7P/1PP3P1/3R3R w - - 2 26",
   "side_to_move": "white",
-  "arrows": [],
-  "highlighted_squares": []
+  "arrows": [
+    {
+      "from_square": "g5",
+      "to_square": "g4",
+      "kind": "threat",
+      "color": "#c62828"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "g4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
 }

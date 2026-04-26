@@ -9,13 +9,15 @@
   "move_data": {
     "candidate_moves": [
       "c8c1",
-      "c7c1",
-      "c7c2",
-      "f5e4",
-      "e6e5"
+      "c7c3",
+      "c4e2",
+      "d5e5",
+      "b5b4"
     ],
     "valid_candidate_moves": [
-      "e6e5"
+      "c4e2",
+      "d5e5",
+      "b5b4"
     ],
     "invalid_candidate_moves": [
       {
@@ -23,15 +25,7 @@
         "reason": "illegal_move"
       },
       {
-        "move": "c7c1",
-        "reason": "illegal_move"
-      },
-      {
-        "move": "c7c2",
-        "reason": "illegal_move"
-      },
-      {
-        "move": "f5e4",
+        "move": "c7c3",
         "reason": "illegal_move"
       }
     ]

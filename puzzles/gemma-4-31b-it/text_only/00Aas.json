@@ -1,0 +1,22 @@
+{
+  "id": "00Aas",
+  "input_annotation_json_path": "puzzles\\annotations_json\\00Aas.json",
+  "fen": "3r1rk1/1p2q1pp/5p2/8/1P1n4/6Q1/PPbB1PPP/R2B1RK1 w - - 9 20",
+  "side_to_move": "white",
+  "model": "google/gemma-4-31b-it",
+  "baseline_type": "text_only_same_conversation",
+  "annotation_data": {
+    "side_to_move": "white",
+    "candidate_move_arrows": [
+      {
+        "from": "a1",
+        "to": "c1"
+      }
+    ]
+  },
+  "move_data": {
+    "candidate_moves": [
+      "a1c1"
+    ]
+  }
+}

@@ -9,17 +9,17 @@
   "move_data": {
     "candidate_moves": [
       "h7h6",
-      "c6e5",
-      "d7d6",
-      "f8e8",
-      "c6d4"
+      "c6d4",
+      "b4b3",
+      "d7c7",
+      "a6a5"
     ],
     "valid_candidate_moves": [
       "h7h6",
-      "c6e5",
-      "d7d6",
-      "f8e8",
-      "c6d4"
+      "c6d4",
+      "b4b3",
+      "d7c7",
+      "a6a5"
     ],
     "invalid_candidate_moves": []
   }

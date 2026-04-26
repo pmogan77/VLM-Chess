@@ -6,43 +6,43 @@
       "from_square": "d3",
       "to_square": "g6",
       "kind": "candidate_move",
-      "color": "#2e7d32"
+      "color": "#1e88e5"
     },
     {
       "from_square": "h3",
       "to_square": "g4",
       "kind": "candidate_move",
-      "color": "#2e7d32"
+      "color": "#1e88e5"
     },
     {
       "from_square": "g4",
       "to_square": "g2",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "g4",
       "to_square": "h3",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "g4",
       "to_square": "d4",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "h5",
       "to_square": "h3",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "c6",
       "to_square": "d4",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     }
   ],
   "highlighted_squares": [

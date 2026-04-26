@@ -1,0 +1,129 @@
+{
+  "fen": "3R1rk1/pp3ppp/2p3b1/2n3P1/2B2q1P/5N2/PPP1QP2/4R1K1 b - - 0 23",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "c4",
+      "to_square": "f7",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "h2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "f3",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "g3",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "c4",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "g4",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "h4",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "g5",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "g6",
+      "to_square": "c2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "d8",
+      "to_square": "f8",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "f8",
+      "to_square": "d8",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "c2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "h2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "c4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "h4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g5",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f7",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "d8",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f8",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
+}

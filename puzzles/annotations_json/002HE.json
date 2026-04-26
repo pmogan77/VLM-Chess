@@ -3,13 +3,24 @@
   "side_to_move": "white",
   "arrows": [
     {
+      "from_square": "h2",
+      "to_square": "g1",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
       "from_square": "c8",
       "to_square": "c4",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     }
   ],
   "highlighted_squares": [
+    {
+      "square": "g1",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
     {
       "square": "c4",
       "kind": "key_square",

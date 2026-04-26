@@ -1,0 +1,63 @@
+{
+  "fen": "2r3k1/4brp1/2p3b1/2Pp1q1p/3B3P/2P2N2/PP3P1K/R2Q2R1 w - - 1 31",
+  "side_to_move": "white",
+  "arrows": [
+    {
+      "from_square": "g1",
+      "to_square": "g6",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "d4",
+      "to_square": "g7",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "f5",
+      "to_square": "f3",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "e7",
+      "to_square": "h4",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "e7",
+      "to_square": "c5",
+      "kind": "threat",
+      "color": "#c62828"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "f3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "h4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "c5",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g6",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g7",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
+}

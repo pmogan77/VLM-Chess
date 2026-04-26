@@ -1,0 +1,102 @@
+{
+  "fen": "5kr1/pp3p1p/1q2pBb1/1B1p4/P7/5P2/1P4rP/2Q1K2R b K - 0 21",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "g2",
+      "to_square": "g1",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "g2",
+      "to_square": "b2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "g2",
+      "to_square": "e2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "g2",
+      "to_square": "h2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "b6",
+      "to_square": "g1",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "b6",
+      "to_square": "f2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "b6",
+      "to_square": "e3",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "b6",
+      "to_square": "a5",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "b6",
+      "to_square": "b5",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "g1",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "b2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "e2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "h2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "e3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "a5",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "b5",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
+}

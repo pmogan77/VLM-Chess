@@ -8,18 +8,18 @@
   "baseline_type": "plain_image_to_moves",
   "move_data": {
     "candidate_moves": [
-      "a1c1",
-      "e2d2",
-      "c2c4",
-      "c2c3",
-      "f3e5"
+      "f3d4",
+      "a2a4",
+      "h2h3",
+      "e2e3",
+      "a1d1"
     ],
     "valid_candidate_moves": [
-      "a1c1",
-      "e2d2",
-      "c2c4",
-      "c2c3",
-      "f3e5"
+      "f3d4",
+      "a2a4",
+      "h2h3",
+      "e2e3",
+      "a1d1"
     ],
     "invalid_candidate_moves": []
   }

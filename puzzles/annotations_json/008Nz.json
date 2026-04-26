@@ -6,40 +6,74 @@
       "from_square": "d1",
       "to_square": "d3",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "g1",
       "to_square": "h2",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
+    },
+    {
+      "from_square": "a2",
+      "to_square": "g2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
     },
     {
       "from_square": "a2",
       "to_square": "a5",
       "kind": "candidate_move",
-      "color": "#2e7d32"
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "h2",
+      "to_square": "h1",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "h2",
+      "to_square": "g2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "h2",
+      "to_square": "h4",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
     },
     {
       "from_square": "d3",
       "to_square": "c4",
       "kind": "candidate_move",
-      "color": "#2e7d32"
+      "color": "#1e88e5"
     },
     {
       "from_square": "a5",
       "to_square": "b6",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "b6",
       "to_square": "c4",
       "kind": "candidate_move",
-      "color": "#2e7d32"
+      "color": "#1e88e5"
     }
   ],
   "highlighted_squares": [
+    {
+      "square": "h1",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
     {
       "square": "h2",
       "kind": "key_square",
@@ -52,6 +86,11 @@
     },
     {
       "square": "c4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "h4",
       "kind": "key_square",
       "color": "#42a5f566"
     },

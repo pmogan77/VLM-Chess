@@ -1,0 +1,58 @@
+{
+  "fen": "q5kr/p4p2/3Bb1p1/4p2p/5n2/2P5/P1Q2PPP/3R1RK1 w - - 4 21",
+  "side_to_move": "white",
+  "arrows": [
+    {
+      "from_square": "c2",
+      "to_square": "g6",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "g2",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "d6",
+      "to_square": "e5",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "e6",
+      "to_square": "a2",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "a8",
+      "to_square": "g2",
+      "kind": "threat",
+      "color": "#c62828"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "a2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "e5",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g6",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
+}

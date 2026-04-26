@@ -1,0 +1,107 @@
+{
+  "fen": "1R6/6pk/2p4p/3bP2r/5B1P/2P2qP1/P4P1Q/4R1K1 w - - 2 40",
+  "side_to_move": "white",
+  "arrows": [
+    {
+      "from_square": "f3",
+      "to_square": "f2",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "f3",
+      "to_square": "c3",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "f3",
+      "to_square": "g3",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "f3",
+      "to_square": "f4",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "f4",
+      "to_square": "h6",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "d5",
+      "to_square": "a2",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "h5",
+      "to_square": "h4",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "h5",
+      "to_square": "e5",
+      "kind": "threat",
+      "color": "#c62828"
+    },
+    {
+      "from_square": "b8",
+      "to_square": "h8",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "a2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "c3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "h4",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "e5",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "h6",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "h8",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
+}

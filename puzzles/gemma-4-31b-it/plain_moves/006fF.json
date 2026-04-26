@@ -10,17 +10,20 @@
     "candidate_moves": [
       "a7a6",
       "h7h6",
-      "d4d3",
-      "c8e6",
-      "d7c7"
+      "d7c7",
+      "d7e7",
+      "c8e6"
     ],
     "valid_candidate_moves": [
       "a7a6",
       "h7h6",
-      "d4d3",
       "d7c7"
     ],
     "invalid_candidate_moves": [
+      {
+        "move": "d7e7",
+        "reason": "illegal_move"
+      },
       {
         "move": "c8e6",
         "reason": "illegal_move"

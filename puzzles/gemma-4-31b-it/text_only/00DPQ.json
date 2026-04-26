@@ -1,0 +1,27 @@
+{
+  "id": "00DPQ",
+  "input_annotation_json_path": "puzzles\\annotations_json\\00DPQ.json",
+  "fen": "2k4r/pp3pp1/4pn2/2np2p1/8/1B1P1Pq1/PPPN1R2/R2Q3K w - - 6 20",
+  "side_to_move": "white",
+  "model": "google/gemma-4-31b-it",
+  "baseline_type": "text_only_same_conversation",
+  "annotation_data": {
+    "side_to_move": "white",
+    "candidate_move_arrows": [],
+    "threat_arrows": [
+      {
+        "from": "h8",
+        "to": "h1",
+        "piece": "r"
+      }
+    ],
+    "key_squares": [
+      "h1"
+    ]
+  },
+  "move_data": {
+    "candidate_moves": [
+      "f2f1"
+    ]
+  }
+}

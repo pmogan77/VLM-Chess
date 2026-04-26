@@ -1,6 +1,6 @@
 {
-  "id": "007tv",
-  "image_path": "puzzles\\annotated_boards\\007tv.png",
+  "id": "007tv_annotated",
+  "image_path": "puzzles\\annotated_boards\\007tv_annotated.png",
   "input_annotation_json_path": "puzzles\\annotations_json\\007tv.json",
   "side_to_move": "black",
   "fen": "r3k1nr/1pp2ppp/1pnp2q1/4p1B1/2B1P3/3P1Q1P/PPP2PP1/R4RK1 b kq - 0 11",
@@ -8,13 +8,23 @@
   "baseline_type": "gold_annotated_image_to_moves",
   "move_data": {
     "candidate_moves": [
-      "a8a2",
-      "g6e4"
+      "g8f6",
+      "g6f6",
+      "f7f6",
+      "f7f5",
+      "e8e7"
     ],
     "valid_candidate_moves": [
-      "a8a2",
-      "g6e4"
+      "g8f6",
+      "g6f6",
+      "f7f6",
+      "f7f5"
     ],
-    "invalid_candidate_moves": []
+    "invalid_candidate_moves": [
+      {
+        "move": "e8e7",
+        "reason": "illegal_move"
+      }
+    ]
   }
 }

@@ -1,0 +1,41 @@
+{
+  "fen": "r5nr/ppp3p1/3bBk1p/4nP2/3p4/8/PPPN1P1P/R1B1K2R b KQ - 1 15",
+  "side_to_move": "black",
+  "arrows": [
+    {
+      "from_square": "e5",
+      "to_square": "d3",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "e5",
+      "to_square": "f3",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "e6",
+      "to_square": "g8",
+      "kind": "threat",
+      "color": "#c62828"
+    }
+  ],
+  "highlighted_squares": [
+    {
+      "square": "d3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "f3",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "g8",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    }
+  ]
+}

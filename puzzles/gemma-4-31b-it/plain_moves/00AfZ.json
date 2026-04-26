@@ -1,0 +1,18 @@
+{
+  "id": "00AfZ",
+  "image_path": "puzzles\\plain_boards\\00AfZ.png",
+  "input_annotation_json_path": "puzzles\\annotations_json\\00AfZ.json",
+  "side_to_move": "black",
+  "fen": "2r3kR/Q7/5q2/1brpN3/5Pp1/4P1P1/6K1/1B6 b - - 2 43",
+  "model": "google/gemma-4-31b-it",
+  "baseline_type": "plain_image_to_moves",
+  "move_data": {
+    "candidate_moves": [
+      "g8h8"
+    ],
+    "valid_candidate_moves": [
+      "g8h8"
+    ],
+    "invalid_candidate_moves": []
+  }
+}

@@ -8,21 +8,24 @@
   "baseline_type": "plain_image_to_moves",
   "move_data": {
     "candidate_moves": [
-      "e5e4",
-      "c7c1",
-      "e5h2",
-      "c7c2",
-      "c7c3"
+      "f7f5",
+      "c8d6",
+      "h7h6",
+      "a8d8",
+      "c7c6"
     ],
     "valid_candidate_moves": [
-      "c7c1",
-      "e5h2",
-      "c7c2",
-      "c7c3"
+      "f7f5",
+      "h7h6",
+      "c7c6"
     ],
     "invalid_candidate_moves": [
       {
-        "move": "e5e4",
+        "move": "c8d6",
+        "reason": "illegal_move"
+      },
+      {
+        "move": "a8d8",
         "reason": "illegal_move"
       }
     ]

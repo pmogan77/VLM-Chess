@@ -1,6 +1,6 @@
 {
-  "id": "00143",
-  "image_path": "puzzles\\annotated_boards\\00143.png",
+  "id": "00143_annotated",
+  "image_path": "puzzles\\annotated_boards\\00143_annotated.png",
   "input_annotation_json_path": "puzzles\\annotations_json\\00143.json",
   "side_to_move": "black",
   "fen": "r2q1rk1/5ppp/1np5/p1b5/2p1B3/P7/1P3PPP/R1BQ1RK1 b - - 1 17",
@@ -8,21 +8,21 @@
   "baseline_type": "gold_annotated_image_to_moves",
   "move_data": {
     "candidate_moves": [
-      "d8d1",
-      "c4a3",
+      "f7f5",
       "b6d5",
-      "g7g6",
-      "h7h6"
+      "d8d4",
+      "a5a4",
+      "c5d5"
     ],
     "valid_candidate_moves": [
-      "d8d1",
+      "f7f5",
       "b6d5",
-      "g7g6",
-      "h7h6"
+      "d8d4",
+      "a5a4"
     ],
     "invalid_candidate_moves": [
       {
-        "move": "c4a3",
+        "move": "c5d5",
         "reason": "illegal_move"
       }
     ]

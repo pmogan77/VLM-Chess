@@ -1,0 +1,106 @@
+{
+  "id": "00AXb",
+  "input_annotation_json_path": "puzzles\\annotations_json\\00AXb.json",
+  "side_to_move": "black",
+  "fen": "5kr1/pp3p1p/1q2pBb1/1B1p4/P7/5P2/1P4rP/2Q1K2R b K - 0 21",
+  "model": "random",
+  "baseline_type": "random_baseline",
+  "baseline_seed": "12345:00AXb",
+  "candidate_move_arrows": [
+    {
+      "from": "g2",
+      "to": "g1",
+      "piece": "r"
+    },
+    {
+      "from": "g6",
+      "to": "b1",
+      "piece": "b"
+    },
+    {
+      "from": "g2",
+      "to": "b2",
+      "piece": "r"
+    }
+  ],
+  "threat_arrows": [
+    {
+      "from": "b5",
+      "to": "c6",
+      "piece": "B"
+    },
+    {
+      "from": "c1",
+      "to": "c5",
+      "piece": "Q"
+    },
+    {
+      "from": "f6",
+      "to": "d4",
+      "piece": "B"
+    }
+  ],
+  "key_squares": [
+    "h8",
+    "e4",
+    "h3"
+  ],
+  "annotation_bundle": {
+    "arrows": [
+      {
+        "from_square": "g2",
+        "to_square": "g1",
+        "kind": "candidate_move",
+        "color": "#1e88e5"
+      },
+      {
+        "from_square": "g6",
+        "to_square": "b1",
+        "kind": "candidate_move",
+        "color": "#1e88e5"
+      },
+      {
+        "from_square": "g2",
+        "to_square": "b2",
+        "kind": "candidate_move",
+        "color": "#1e88e5"
+      },
+      {
+        "from_square": "b5",
+        "to_square": "c6",
+        "kind": "threat",
+        "color": "#c62828"
+      },
+      {
+        "from_square": "c1",
+        "to_square": "c5",
+        "kind": "threat",
+        "color": "#c62828"
+      },
+      {
+        "from_square": "f6",
+        "to_square": "d4",
+        "kind": "threat",
+        "color": "#c62828"
+      }
+    ],
+    "highlighted_squares": [
+      {
+        "square": "h8",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      },
+      {
+        "square": "e4",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      },
+      {
+        "square": "h3",
+        "kind": "key_square",
+        "color": "#42a5f566"
+      }
+    ]
+  },
+  "final_png": "puzzles\\random\\annotated_boards\\00AXb.png"
+}

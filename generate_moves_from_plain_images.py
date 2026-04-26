@@ -8,13 +8,31 @@ import mimetypes
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+import threading
 from typing import Any, Dict, List, Tuple
 
 import chess
 import requests
+import time
 
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+
+_thread_local = threading.local()
+
+
+def get_session() -> requests.Session:
+    if not hasattr(_thread_local, "session"):
+        session = requests.Session()
+        adapter = requests.adapters.HTTPAdapter(
+            pool_connections=32,
+            pool_maxsize=32,
+            max_retries=0,
+        )
+        session.mount("https://", adapter)
+        session.mount("http://", adapter)
+        _thread_local.session = session
+    return _thread_local.session
 
 MOVE_SYSTEM_PROMPT = """
 You are a chess move prediction assistant.
@@ -96,16 +114,21 @@ def call_openrouter(api_key: str, payload: Dict[str, Any]) -> Dict[str, Any]:
         "X-Title": "Chess Plain-Board Move Prediction",
     }
 
-    response = requests.post(
+    session = get_session()
+
+    response = session.post(
         OPENROUTER_URL,
         headers=headers,
-        data=json.dumps(payload),
-        timeout=120,
+        json=payload,
+        timeout=(20, 180),
     )
+
     response.raise_for_status()
     data = response.json()
+
     if "error" in data:
         raise RuntimeError(json.dumps(data["error"], indent=2))
+
     return data
 
 

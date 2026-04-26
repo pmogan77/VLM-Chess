@@ -1,0 +1,41 @@
+{
+  "id": "00D77",
+  "input_annotation_json_path": "puzzles\\annotations_json\\00D77.json",
+  "fen": "5rk1/bpp3pp/p1npb3/4p3/1P2Nr1q/P1PP3P/1B1QBPR1/2K3R1 b - - 2 21",
+  "side_to_move": "black",
+  "model": "google/gemma-4-31b-it",
+  "baseline_type": "text_only_same_conversation",
+  "annotation_data": {
+    "side_to_move": "black",
+    "candidate_move_arrows": [
+      {
+        "from": "c6",
+        "to": "e4",
+        "piece": "n"
+      },
+      {
+        "from": "d6",
+        "to": "d5",
+        "piece": "p"
+      }
+    ],
+    "threat_arrows": [
+      {
+        "from": "e4",
+        "to": "f6",
+        "piece": "N"
+      }
+    ],
+    "key_squares": [
+      "e4",
+      "f2",
+      "g2"
+    ]
+  },
+  "move_data": {
+    "candidate_moves": [
+      "c6e4",
+      "d6d5"
+    ]
+  }
+}

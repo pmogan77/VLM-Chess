@@ -1,35 +1,40 @@
 {
   "id": "003wQ",
-  "image_path": "puzzles\\gemma-4-31b-it\\annotated_boards_final\\003wQ.png",
-  "input_annotation_json_path": "puzzles\\annotations_json\\003wQ.json",
+  "image_path": "puzzles\\gemma-4-31b-it\\model_arrows\\annotated_boards_final\\003wQ.png",
+  "input_annotation_json_path": "puzzles\\gemma-4-31b-it\\model_arrows\\annotations_json\\003wQ.json",
   "side_to_move": "white",
   "fen": "2r2rk1/6pp/3Q1q2/8/3N1B2/6P1/PP1K3P/R4b2 w - - 0 24",
   "model": "google/gemma-4-31b-it",
-  "baseline_type": "image_final_to_moves",
+  "baseline_type": "gold_annotated_image_to_moves",
   "move_data": {
     "candidate_moves": [
-      "b8f1",
-      "d4f5",
-      "d2e3",
-      "d2c3",
-      "d2c1"
+      "c6c6",
+      "e6e6",
+      "b5b5",
+      "f5f5",
+      "c2c2"
     ],
-    "valid_candidate_moves": [
-      "d4f5",
-      "d2e3"
-    ],
+    "valid_candidate_moves": [],
     "invalid_candidate_moves": [
       {
-        "move": "b8f1",
-        "reason": "illegal_move"
+        "move": "c6c6",
+        "reason": "invalid_uci"
       },
       {
-        "move": "d2c3",
-        "reason": "illegal_move"
+        "move": "e6e6",
+        "reason": "invalid_uci"
       },
       {
-        "move": "d2c1",
-        "reason": "illegal_move"
+        "move": "b5b5",
+        "reason": "invalid_uci"
+      },
+      {
+        "move": "f5f5",
+        "reason": "invalid_uci"
+      },
+      {
+        "move": "c2c2",
+        "reason": "invalid_uci"
       }
     ]
   }

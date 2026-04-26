@@ -1,0 +1,35 @@
+{
+  "id": "008Nz",
+  "input_annotation_json_path": "puzzles\\annotations_json\\008Nz.json",
+  "fen": "6k1/2p2ppp/pnp5/B7/2P3PP/1P1bPPR1/r6r/3R2K1 b - - 1 29",
+  "side_to_move": "black",
+  "model": "google/gemma-4-31b-it",
+  "baseline_type": "text_only_same_conversation",
+  "annotation_data": {
+    "side_to_move": "black",
+    "candidate_move_arrows": [
+      {
+        "from": "h2",
+        "to": "h1",
+        "piece": "r"
+      }
+    ],
+    "threat_arrows": [
+      {
+        "from": "a5",
+        "to": "b6",
+        "piece": "B"
+      }
+    ],
+    "key_squares": [
+      "h1",
+      "d1",
+      "g1"
+    ]
+  },
+  "move_data": {
+    "candidate_moves": [
+      "h2h1"
+    ]
+  }
+}

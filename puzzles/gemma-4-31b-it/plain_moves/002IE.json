@@ -10,9 +10,9 @@
     "candidate_moves": [
       "c6e5",
       "f6e5",
-      "d4e3",
-      "a6a5",
-      "c4c3"
+      "d4d3",
+      "e8e7",
+      "f8d8"
     ],
     "valid_candidate_moves": [
       "c6e5"
@@ -23,15 +23,15 @@
         "reason": "illegal_move"
       },
       {
-        "move": "d4e3",
+        "move": "d4d3",
         "reason": "illegal_move"
       },
       {
-        "move": "a6a5",
+        "move": "e8e7",
         "reason": "illegal_move"
       },
       {
-        "move": "c4c3",
+        "move": "f8d8",
         "reason": "illegal_move"
       }
     ]

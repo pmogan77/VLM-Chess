@@ -11,21 +11,18 @@
       "f6e5",
       "f6d5",
       "f6g4",
-      "a8c8",
-      "c8d7"
+      "a6a5",
+      "h7h5"
     ],
     "valid_candidate_moves": [
       "f6d5",
       "f6g4",
-      "c8d7"
+      "a6a5",
+      "h7h5"
     ],
     "invalid_candidate_moves": [
       {
         "move": "f6e5",
-        "reason": "illegal_move"
-      },
-      {
-        "move": "a8c8",
         "reason": "illegal_move"
       }
     ]

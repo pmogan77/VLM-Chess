@@ -6,40 +6,62 @@
       "from_square": "e2",
       "to_square": "g4",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
+    },
+    {
+      "from_square": "g4",
+      "to_square": "f2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
+    },
+    {
+      "from_square": "g4",
+      "to_square": "h2",
+      "kind": "candidate_move",
+      "color": "#1e88e5"
     },
     {
       "from_square": "a5",
       "to_square": "b6",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "c5",
       "to_square": "b6",
       "kind": "threat",
-      "color": "#fb8c00"
+      "color": "#c62828"
     },
     {
       "from_square": "b6",
       "to_square": "a5",
       "kind": "candidate_move",
-      "color": "#2e7d32"
+      "color": "#1e88e5"
     },
     {
       "from_square": "b6",
       "to_square": "c5",
       "kind": "candidate_move",
-      "color": "#2e7d32"
+      "color": "#1e88e5"
     },
     {
       "from_square": "d8",
       "to_square": "d3",
       "kind": "candidate_move",
-      "color": "#2e7d32"
+      "color": "#1e88e5"
     }
   ],
   "highlighted_squares": [
+    {
+      "square": "f2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
+    {
+      "square": "h2",
+      "kind": "key_square",
+      "color": "#42a5f566"
+    },
     {
       "square": "d3",
       "kind": "key_square",
